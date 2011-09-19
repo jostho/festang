@@ -8,6 +8,7 @@ Environment
  * PHP 5.3.8
  * MySQL 5.5.14
  * Netbeans 7.0.1
+ * Curl 7.21.3
 
 
 Configuration
@@ -20,3 +21,21 @@ Database
 ----------
 The employee data is persisted in a mysql database. Setup popper database 
 using the script here - config/popper.sql .
+
+
+Testing
+---------
+
+Curl can be used for testing the app
+
+1. Load a record - GET
+curl -i "http://localhost/popper/edit.php?employee_id=5"
+
+2. Add a record - POST
+curl -i -d "first_name=Nuevo&last_name=Lasto&email=popper.com&designation=Sr+Engineer&date_of_joining=2010-12-31" "http://localhost/popper/edit.php"
+
+3. Update a record - POST
+curl -i -d "id=10&first_name=Firsto&last_name=Lasto&email=popper.com&designation=Engineer&date_of_joining=2010-01-01" "http://localhost/popper/edit.php"
+
+4. Delete a record - DELETE
+curl -i -X DELETE "http://localhost/popper/edit.php?employee_id=15"
