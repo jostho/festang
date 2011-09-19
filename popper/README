@@ -1,2 +1,22 @@
-Popper is the php port of topper
+Popper is the php port of Topper
 
+
+Environment
+-------------
+ * Fedora 15
+ * Apache httpd 2.2.21
+ * PHP 5.3.8
+ * MySQL 5.5.14
+ * Netbeans 7.0.1
+
+
+Configuration
+---------------
+Copy the apache httpd conf file - config/popper.conf to "/etc/httpd/conf.d/" 
+folder. Access the app at http://localhost/popper/ .
+
+
+Database
+----------
+The employee data is persisted in a mysql database. Setup popper database 
+using the script here - config/popper.sql .
