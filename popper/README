@@ -11,10 +11,14 @@ Environment
  * Curl 7.21.3
 
 
-Configuration
----------------
+Web server
+------------
 Copy the apache httpd conf file - config/popper.conf to "/etc/httpd/conf.d/" 
 folder. Access the app at http://localhost/popper/ .
+
+Create a directory in "/var/www/" folder with your username. Change ownership 
+to your user for this folder. Copy the app content to this folder. Or, if you 
+use netbeans, configure ide to copy the files to that location.
 
 
 Database
