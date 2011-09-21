@@ -66,7 +66,9 @@ function save() {
     $emp_id = mysql_insert_id(); // get the generated pk id
   }
 
-  echo " record " . $emp_id . " saved successfully";
+  if(mysql_affected_rows() == 1) {
+    echo " record " . $emp_id . " saved successfully";
+  }
 
 }
 
