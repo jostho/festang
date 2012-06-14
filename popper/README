@@ -3,12 +3,12 @@ Popper is the php port of Topper
 
 Environment
 -------------
- * Fedora 15
- * Apache httpd 2.2.21
- * PHP 5.3.8
- * MySQL 5.5.14
- * Netbeans 7.0.1
- * Curl 7.21.3
+ * Fedora 17
+ * Apache httpd 2.2.22
+ * PHP 5.4.3
+ * MySQL 5.5.23
+ * Netbeans 7.1.2
+ * Curl 7.24.0
 
 
 Web server
