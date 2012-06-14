@@ -4,7 +4,7 @@ This project provides sample code to get started with php.
 
 Environment
 -------------
- * Fedora 16
- * Apache httpd 2.2.21
- * PHP 5.3.8
+ * Fedora 17
+ * Apache httpd 2.2
+ * PHP 5.4
 
